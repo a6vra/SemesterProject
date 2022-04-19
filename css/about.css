@@ -1,5 +1,6 @@
-
-
+/* header */
+/* body */
+/* Nav Menu */
 #nav_menu {
     list-style-type: none;
     margin:0;
@@ -19,8 +20,8 @@
     padding-bottom: 1em;
     padding-top: 1em;
     text-decoration: none;
-    background-color: #807878;
-    color: white;
+    background-color: #eaa7a7;
+    color: #4f3131;
     font-weight: bold;
 }
 
@@ -47,3 +48,7 @@
 :current(ul,li){
     color: yellow;
 }
+
+/* Photo */
+/* Text boxes */
+
