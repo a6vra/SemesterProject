@@ -1,0 +1,47 @@
+#nav_menu {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu li{
+    float: left;
+    list-style-type: none;
+}
+
+#nav_menu li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu li ul{
+    display: none;
+    top: 100%;
+    position: absolute;
+}
+
+#nav_menu li:hover ul{
+    margin-top: 50px;
+    display: block;
+}
+
+#nav_menu li::after ul {
+    clear: initial;
+    display: block;
+}
+
+#nav_menu .current{
+    color: yellow;
+}
+
+:current(ul,li){
+    color: yellow;
+}
