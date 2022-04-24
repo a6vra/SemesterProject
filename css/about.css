@@ -12,6 +12,7 @@ header h1{
     /* border */
     background-color: #f4a261;
     border: 20px solid #f4a261;
+    border-radius: 5px;
     margin-right: 0;
 
 
@@ -35,6 +36,10 @@ header h4{
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* body */
+
+body {
+    background-color: #ede8e1;
+}
 .column {
     float: left;
     width: 80%;
@@ -57,7 +62,7 @@ body h2{
     /* positioning */
     position: absolute;
     top: 120px;
-    left: 600px;
+    left: 500px;
 }
 img{
     /* circle crop */
@@ -75,25 +80,29 @@ img{
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
 #nav_menu {
+
     list-style-type: none;
     margin-left: 230px;
     margin-right: 0;
     padding: 0;
 
     /* positioning */
-    position: absolute;
+    position: relative;
+    left: -10px;
     top: 63px;
-    right: 200px;
+    right: 250px;
+
 }
 
 #nav_menu li{
     float: left;
     list-style-type: none;
+
 }
 
 #nav_menu li a {
     display: block;
-    width:210px;
+    width:250px;
     text-align: center;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -101,6 +110,8 @@ img{
     background-color: #e76f51;
     color: #4f3131;
     font-weight: bold;
+
+
 }
 
 #nav_menu li ul{
@@ -132,15 +143,24 @@ img{
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* the styles for the footer */
 footer{
+    /* text */
     background-color: #e76f51;
-    text-align: center;
+    color: #4f3131;
+    font-weight: bold;
+
+    /* positioning */
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
 
 }
 footer p{
     color: white;
+    position:absolute;
+    bottom:5px;
 }
 
