@@ -40,9 +40,9 @@ body {
     background-color: #ede8e1;
 }
 
-body .container-fluid.row.row.container.row.form-group{
+body .container{
     position: absolute;
-    top: 650px;
+    top: 200px;
 }
 
 .column {
