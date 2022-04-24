@@ -39,6 +39,12 @@ header h4{
 body {
     background-color: #ede8e1;
 }
+
+body .container-fluid.row.row.container.row.form-group{
+    position: absolute;
+    top: 650px;
+}
+
 .column {
     float: left;
     width: 80%;
@@ -76,6 +82,8 @@ img{
     right: 900px ;
     top: 150px;
 }
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
 #nav_menu {
