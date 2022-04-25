@@ -17,7 +17,7 @@ header h1{
 
     /* positioning */
     float: left;
-    position: absolute;
+    position: relative;
     left: 20px;
     top: 0;
 
@@ -36,90 +36,130 @@ header h4{
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* body */
 
+
+
+
+
+
 body {
     background-color: #ede8e1;
 }
-
-body .container{
-    /* text */
-    color: #4f3131;
-    font-size: 30px;
-
-    /* positioning */
-    position: relative;
-    left: 530px;
-
-}
-
 .column {
     float: left;
     width: 80%;
     padding: 15px;
 }
 
-p{
-    /* text */
-    color: #4f3131;
-    font-size: 30px;
-
-
-    padding-left: 550px;
-}
-
-p.email{
-    /* positioning */
-    padding-top: 240px;
-
-}
 
 body h2{
     /* text */
     color: #4f3131;
     font-size: 50px;
-    background-color:#f2d796;
-    border-radius:4px;
-    border: #f2d796 10px solid;
 
     /* positioning */
-    position: absolute;
-    top: 120px;
-    left: 600px;
-
-
+    position: relative;
+    top: 100px;
+    left: 300px;
 }
 
 body h3{
     /* text */
     color: #4f3131;
-    font-size: 40px;
-
-
+    font-size: 30px;
 
     /* positioning */
     position: relative;
-    left: 550px;
+    padding-top: 150px;
+    padding-left:520px;
 }
 
-
-body img{
-    /* crop */
-    width:90px;
-    height:90px;
-    left:440px;
+body h3.metalLogo{
+    padding-top: 200px;
+    padding-left: 545px;
 }
 
-body img.email{
+#github .carousel-inner{
+    position: relative;
+    left: 290px;
+}
+
+#metalLogo .carousel-inner{
+    position: relative;
+    left: 290px;
+}
+
+#homePage  .carousel-inner{
+    position: relative;
+    top:500px;
+    left: 400px;
+}
+
+body p{
+    /* text */
+    color: #4f3131;
+    display: block;
+    background-color:#f2d796;
+    border-radius:4px;
+    border: #f2d796 10px solid;
+}
+
+body p.intro{
+    /* positioning */
+    position: relative;
+    top: 140px;
+    left: 35px;
+
+    margin-right:300px;
+    margin-left: 300px;
+}
+
+body p.projectDescription2{
+    /* positioning */
     position: absolute;
-    top:240px;
+    top: 1000px;
+    left: 100px;
 
+    margin-right:300px;
+    margin-left: 250px;
 }
 
-body img.phone{
+body p.projectDescription{
+    /* positioning */
     position: absolute;
-    top:350px;
+    top: 1500px;
+    left: 35px;
+
+    margin-right:300px;
+    margin-left: 300px;
+    margin-bottom: 300px;
 }
 
+body p.websiteDescription{
+    /* positioning */
+    position: absolute;
+    top: 900px;
+    left: 100px;
 
+    margin-right:300px;
+    margin-left: 250px;
+}
+
+body p.holder{
+    /* positioning */
+    color:#f2d796;
+    position: absolute;
+    top: 2000px;
+    left: 35px;
+}
+
+body p.holder2 {
+    /* positioning */
+    color: #f2d796;
+    position: absolute;
+    top: 1400px;
+    left: 35px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
@@ -133,7 +173,7 @@ body img.phone{
     /* positioning */
     position: relative;
     left: -10px;
-    top: 63px;
+    top: 53px;
     right: 250px;
 
 }
@@ -158,10 +198,6 @@ body img.phone{
 
 }
 
-#nav_menu li a:hover{
-    background-color: #74c2b8;
-}
-
 #nav_menu li ul{
     display: none;
     top: 100%;
@@ -170,9 +206,14 @@ body img.phone{
     position: absolute;
 }
 
+#nav_menu li a:hover{
+    background-color: #74c2b8;
+}
+
 #nav_menu li:hover ul{
     margin-top: 50px;
     display: block;
+    margin-right: 10px;
 }
 
 #nav_menu li::after ul {
@@ -187,7 +228,6 @@ body img.phone{
 :current(ul,li){
     color: yellow;
 }
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* the styles for the footer */
 footer{
@@ -211,4 +251,3 @@ footer p{
     position:absolute;
     bottom:5px;
 }
-
