@@ -58,10 +58,15 @@ body .container{
 }
 
 p{
+    /* text */
+    color: #4f3131;
+    font-size: 20px;
+
     /* positioning */
-    position: absolute;
+    vertical-align: center;
+    position: relative;
     top: 250px;
-    left: 500px;
+    left: 550px;
     width: 500px;
 }
 
@@ -83,9 +88,11 @@ img{
 
 
     /* positioning */
+    vertical-align: center;
     position: relative;
-    top: 110px;
+    top: 10px;
     left: 200px;
+
 
 }
 
