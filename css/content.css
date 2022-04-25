@@ -17,7 +17,7 @@ header h1{
 
     /* positioning */
     float: left;
-    position: absolute;
+    position: relative;
     left: 20px;
     top: 0;
 
@@ -35,9 +35,7 @@ header h4{
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* body */
-.carousel-inner {
-    height: 300px;
-}
+
 
 
 
@@ -59,9 +57,9 @@ body h2{
     font-size: 50px;
 
     /* positioning */
-    position: absolute;
-    top: 120px;
-    left: 450px;
+    position: relative;
+    top: 100px;
+    left: 300px;
 }
 
 body h3{
@@ -71,8 +69,22 @@ body h3{
 
     /* positioning */
     position: relative;
-    padding-top: 350px;
-    padding-left:540px;
+    padding-top: 150px;
+    padding-left:520px;
+}
+
+body h3.metalLogo{
+    padding-left: 545px;
+}
+
+#github .carousel-inner{
+    position: relative;
+    left: 290px;
+}
+
+#metalLogo .carousel-inner{
+    position: relative;
+    left: 290px;
 }
 
 body p{
@@ -86,18 +98,28 @@ body p{
 
 body p.intro{
     /* positioning */
-    position: absolute;
-    top: 210px;
+    position: relative;
+    top: 140px;
     left: 35px;
 
     margin-right:300px;
     margin-left: 300px;
 }
 
+body p.projectDescription2{
+    /* positioning */
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+
+    margin-right:150px;
+    margin-left: 150px;
+}
+
 body p.projectDescription{
     /* positioning */
     position: absolute;
-    top: 700px;
+    top: 2000px;
     left: 35px;
 
     margin-right:300px;
@@ -117,7 +139,7 @@ body p.projectDescription{
     /* positioning */
     position: relative;
     left: -10px;
-    top: 63px;
+    top: 53px;
     right: 250px;
 
 }
@@ -157,6 +179,7 @@ body p.projectDescription{
 #nav_menu li:hover ul{
     margin-top: 50px;
     display: block;
+    margin-right: 10px;
 }
 
 #nav_menu li::after ul {
