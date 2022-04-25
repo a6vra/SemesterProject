@@ -74,6 +74,7 @@ body h3{
 }
 
 body h3.metalLogo{
+    padding-top: 200px;
     padding-left: 545px;
 }
 
@@ -83,6 +84,11 @@ body h3.metalLogo{
 }
 
 #metalLogo .carousel-inner{
+    position: relative;
+    left: 290px;
+}
+
+#portfolioWebsite  .carousel-inner{
     position: relative;
     left: 290px;
 }
@@ -112,18 +118,45 @@ body p.projectDescription2{
     top: 1000px;
     left: 100px;
 
-    margin-right:150px;
-    margin-left: 150px;
+    margin-right:300px;
+    margin-left: 250px;
 }
 
 body p.projectDescription{
     /* positioning */
     position: absolute;
-    top: 2000px;
+    top: 1500px;
     left: 35px;
 
     margin-right:300px;
     margin-left: 300px;
+    margin-bottom: 300px;
+}
+
+body p.websiteDescription{
+    /* positioning */
+    position: absolute;
+    top: 900px;
+    left: 100px;
+
+    margin-right:300px;
+    margin-left: 250px;
+}
+
+body p.holder{
+    /* positioning */
+    color:#f2d796;
+    position: absolute;
+    top: 2000px;
+    left: 35px;
+}
+
+body p.holder2 {
+    /* positioning */
+    color: #f2d796;
+    position: absolute;
+    top: 1400px;
+    left: 35px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
