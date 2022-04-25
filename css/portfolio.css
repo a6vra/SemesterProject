@@ -45,12 +45,18 @@ body {
     padding: 15px;
 }
 
-p{
+/* paragraph styles */
+body p{
+    /* text */
+    color: #4f3131;
+
     /* positioning */
-    position: relative;
-    top: 700px;
-    left: 500px;
-    width: 500px;
+    margin-right:300px;
+    margin-left: 300px;
+    padding-left: 140px;
+    padding-top: 20px;
+}
+p.website{
 }
 
 body h2{
@@ -64,17 +70,30 @@ body h2{
     left: 600px;
 }
 
+/* h3 styles */
 body h3{
     /* text */
     color: #4f3131;
     font-size: 30px;
-
-    /* positioning */
-    position: relative;
-    top: 230px;
-    left: 590px;
-
 }
+
+body h3.website{
+    /* positioning */
+    padding-top:220px;
+    padding-left: 580px;
+}
+
+body h3.graphic{
+    padding-top:100px;
+    padding-left: 550px;
+}
+
+body h3.personal{
+    padding-top:100px;
+    padding-left: 570px;
+}
+
+/* image styles */
 img{
     /* circle crop */
     margin-top: 30px;
@@ -82,13 +101,7 @@ img{
     height:300px;
     object-fit:cover;
 
-
-    /* positioning */
-    position: relative;
-    align-content: center;
-    top: 250px;
-    left: 450px;
-    right: 0;
+    padding-left: 440px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
