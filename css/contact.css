@@ -169,6 +169,10 @@ button{
 
 }
 
+#nav_menu li a:hover{
+    background-color: #74c2b8;
+}
+
 #nav_menu li ul{
     display: none;
     top: 100%;

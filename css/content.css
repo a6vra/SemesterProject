@@ -35,6 +35,9 @@ header h4{
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* body */
+.carousel-inner {
+    height: 300px;
+}
 
 
 
@@ -145,6 +148,10 @@ body p.projectDescription{
 
     /* positioning */
     position: absolute;
+}
+
+#nav_menu li a:hover{
+    background-color: #74c2b8;
 }
 
 #nav_menu li:hover ul{
