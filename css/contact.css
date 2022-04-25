@@ -47,8 +47,8 @@ body .container{
 
     /* positioning */
     position: relative;
-    left: 470px;
-    top: 150px;
+    left: 530px;
+
 }
 
 .column {
@@ -60,52 +60,78 @@ body .container{
 p{
     /* text */
     color: #4f3131;
-    font-size: 20px;
+    font-size: 30px;
 
+    
+    padding-left: 550px;
+}
+
+p.email{
     /* positioning */
-    display: inline;
-    vertical-align: middle;
-    position: relative;
-    top: 250px;
-    left: 550px;
-    width: 500px;
+    padding-top: 240px;
+
 }
 
 body h2{
     /* text */
     color: #4f3131;
     font-size: 50px;
+    background-color:#f2d796;
+    border-radius:4px;
+    border: #f2d796 10px solid;
 
     /* positioning */
     position: absolute;
-    top: 110px;
+    top: 120px;
+    left: 600px;
+
+
+}
+
+body h3{
+    /* text */
+    color: #4f3131;
+    font-size: 40px;
+
+
+
+    /* positioning */
+    position: relative;
     left: 550px;
 }
 
 
-
 body img{
     /* crop */
-    margin-top: 30px;
     width:90px;
     height:90px;
+    left:440px;
+}
 
-
-    /* positioning */
-    vertical-align: middle;
-    position: relative;
-    top: 100px;
-    left: 200px;
-
+body img.email{
+    position: absolute;
+    top:240px;
 
 }
 
-img .email{
-    /* positioning */
-    position: relative;
-    top: 500px;
+body img.phone{
+    position: absolute;
+    top:350px;
 }
 
+body img.github{
+    position: absolute;
+    top:460px;
+}
+
+body img.linkedin{
+    position: absolute;
+    top:580px;
+}
+
+button{
+    background-color: #2a9d8f;
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
 #nav_menu {

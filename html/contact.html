@@ -8,6 +8,27 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="../css/contact.css">
 
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #f4a261;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2a9d8f;
+        }
+    </style>
 </head>
 
 <!-------------------------------------------------------------------------------------------->
@@ -37,25 +58,26 @@
 <!-------------------------------------------------------------------------------------------->
 <body>
 <h2>Contact</h2>
-<p> Email: avr4@njit.edu </p>
+<p class="email" >    Email: avr4@njit.edu </p>
 <br>
-<p> Phone: 609-802-5904 </p>
+<p class="phone">     Phone: 609-802-5904 </p>
 <br>
-<p> Github: a6vra </p>
+<p class="github">    <a href="https://github.com/a6vra" >Github: a6vra</a> </p>
 <br>
-<p> Linkedin: Adrianna Rust </p>
+<p class="linkedin" > <a href="https://www.linkedin.com/in/adrianna-rust-18a547221/" >Linkedin: Adrianna Rust</a> </p>
 <!-------------------------------------------------------------------------------------------->
 <!-- Image -->
-<img class="email" src = "email%20icon.webp" alt= "placement holder">
+<img class="email"    src = "email%20icon.webp"    alt= "email icon">
 <br>
-<img class="phone" src = "phone%20icon.png" alt= "placement holder">
+<img class="phone"    src = "phone%20icon.png"     alt= "phone icon">
 <br>
-<img class="github" src = "github%20icon.webp" alt= "placement holder">
+<img class="github"   src = "github%20icon.webp"   alt= "github icon">
 <br>
-<img class="linkedin" src = "linkedin%20icon.webp" alt= "placement holder">
+<img class="linkedin" src = "linkedin%20icon.webp" alt= "linkedin icon">
 
 <!-------------------------------------------------------------------------------------------->
-
+<hr>
+<h3> Contact Form </h3>
 <!-- given form info -->
 <div class="container-fluid">
     <div class="row">
@@ -89,7 +111,7 @@
                             </label>
                         </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                       <button type="submit" class="btn btn-primary">Submit</button>
 
                     </form>
                 </div>
@@ -97,10 +119,8 @@
         </div>
     </div>
 </div>
+<button type="button">Click Me!</button>
 
- <footer>
-     &copy; Adrianna Rust, 2022 |  Terms Of Use  |  Privacy Statement
-  </footer>
 
 
     <!-- Javascript Bundle with Popper -->
@@ -110,4 +130,7 @@
 </script>
 
 </body>
+<footer>
+    &copy; Adrianna Rust, 2022 |  Terms Of Use  |  Privacy Statement
+</footer>
 </html>
