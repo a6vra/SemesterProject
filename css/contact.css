@@ -63,7 +63,8 @@ p{
     font-size: 20px;
 
     /* positioning */
-    vertical-align: center;
+    display: inline;
+    vertical-align: middle;
     position: relative;
     top: 250px;
     left: 550px;
@@ -80,7 +81,10 @@ body h2{
     top: 110px;
     left: 550px;
 }
-img{
+
+
+
+body img{
     /* crop */
     margin-top: 30px;
     width:90px;
@@ -88,9 +92,9 @@ img{
 
 
     /* positioning */
-    vertical-align: center;
+    vertical-align: middle;
     position: relative;
-    top: 10px;
+    top: 100px;
     left: 200px;
 
 

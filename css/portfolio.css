@@ -48,7 +48,7 @@ body {
 p{
     /* positioning */
     position: relative;
-    top: 250px;
+    top: 700px;
     left: 500px;
     width: 500px;
 }
@@ -61,20 +61,34 @@ body h2{
     /* positioning */
     position: absolute;
     top: 120px;
-    left: 500px;
+    left: 600px;
+}
+
+body h3{
+    /* text */
+    color: #4f3131;
+    font-size: 30px;
+
+    /* positioning */
+    position: relative;
+    top: 230px;
+    left: 590px;
+
 }
 img{
     /* circle crop */
     margin-top: 30px;
-    width:300px;
+    width:500px;
     height:300px;
     object-fit:cover;
-    border-radius:50%;
+
 
     /* positioning */
-    position: absolute;
-    right: 900px ;
-    top: 150px;
+    position: relative;
+    align-content: center;
+    top: 250px;
+    left: 450px;
+    right: 0;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Nav Menu */
