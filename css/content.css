@@ -1,0 +1,177 @@
+/* DEVELOPER: Adrianna Rust, IS117-102, Spring 2022 */
+
+/* header */
+header h1{
+    /* text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #4f3131;
+
+    /* border */
+    background-color: #f4a261;
+    border: 20px solid #f4a261;
+    border-radius: 5px;
+    margin-right: 0;
+
+
+    /* positioning */
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 0;
+
+}
+
+header h4{
+    /* text */
+    font-size: 17px;
+    color: #4f3131;
+
+    /* positioning */
+    position: absolute;
+    left: 230px;
+
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* body */
+
+
+
+
+
+body {
+    background-color: #ede8e1;
+}
+.column {
+    float: left;
+    width: 80%;
+    padding: 15px;
+}
+
+
+body h2{
+    /* text */
+    color: #4f3131;
+    font-size: 50px;
+
+    /* positioning */
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}
+
+body h3{
+    /* text */
+    color: #4f3131;
+    font-size: 30px;
+
+    /* positioning */
+    position: relative;
+    padding-top: 350px;
+    padding-left:540px;
+}
+
+body p{
+    /* text */
+    color: #4f3131;
+    display: block;
+    background-color:#f2d796;
+    border-radius:4px;
+    border: #f2d796 10px solid;
+
+    /* positioning */
+    position: absolute;
+    top: 210px;
+    left: 35px;
+
+    margin-right:300px;
+    margin-left: 300px;
+
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Nav Menu */
+#nav_menu {
+
+    list-style-type: none;
+    margin-left: 230px;
+    margin-right: 0;
+    padding: 0;
+
+    /* positioning */
+    position: relative;
+    left: -10px;
+    top: 63px;
+    right: 250px;
+
+}
+
+#nav_menu li{
+    float: left;
+    list-style-type: none;
+
+}
+
+#nav_menu li a {
+    display: block;
+    width:250px;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-decoration: none;
+    background-color: #e76f51;
+    color: #4f3131;
+    font-weight: bold;
+
+
+}
+
+#nav_menu li ul{
+    display: none;
+    top: 100%;
+
+    /* positioning */
+    position: absolute;
+}
+
+#nav_menu li:hover ul{
+    margin-top: 50px;
+    display: block;
+}
+
+#nav_menu li::after ul {
+    clear: initial;
+    display: block;
+}
+
+#nav_menu .current{
+    color: yellow;
+}
+
+:current(ul,li){
+    color: yellow;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* the styles for the footer */
+footer{
+    /* text */
+    background-color: #e76f51;
+    color: #4f3131;
+    font-weight: bold;
+
+    /* positioning */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+footer p{
+    color: white;
+    position:absolute;
+    bottom:5px;
+}
