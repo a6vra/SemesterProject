@@ -45,7 +45,7 @@ body {
     padding: 15px;
 }
 
-p{
+p.part1{
     /* positioning */
     position: absolute;
     top: 250px;
@@ -53,6 +53,13 @@ p{
     width: 500px;
 }
 
+p.part2{
+    /* positioning */
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    width: 500px;
+}
 body h2{
     /* text */
     color: #4f3131;
