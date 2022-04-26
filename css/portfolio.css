@@ -61,10 +61,15 @@ body p{
 
     position:relative;
     top: 0;
-    left: 210px;
+    left: 150px;
+    right: 300px;
 }
 
-
+body p.text{
+    position: relative;
+    left: 400px;
+    margin-left: 0px;
+}
 
 
 
