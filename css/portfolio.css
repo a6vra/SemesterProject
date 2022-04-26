@@ -132,19 +132,19 @@ img.w2{
 }
 
 img.w3{
-    width:500px;
-    height:500px;
-    object-fit:cover;
-
-    padding-left: 350px;
-}
-
-img.w4{
-    width:700px;
+    width:400px;
     height:400px;
     object-fit:cover;
 
-    padding-left: 350px;
+    padding-left: 480px;
+}
+
+img.w4{
+    width:600px;
+    height:300px;
+    object-fit:cover;
+
+    padding-left: 380px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
