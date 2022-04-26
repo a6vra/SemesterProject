@@ -69,6 +69,16 @@ body h3{
     padding-left:520px;
 }
 
+body img.commission{
+    /* crop */
+    width:650px;
+    height:500px;
+
+
+    position: relative;
+    left: 330px;
+}
+
 body h3.metalLogo{
     padding-top: 200px;
     padding-left: 545px;
@@ -152,6 +162,14 @@ body p.holder2 {
     color: #f2d796;
     position: absolute;
     top: 1400px;
+    left: 35px;
+}
+
+body p.holder3 {
+    /* positioning */
+    color: #f2d796;
+    position: absolute;
+    top:1100px;
     left: 35px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
